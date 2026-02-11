@@ -1,0 +1,48 @@
+[
+  {
+    "id": "p_web_start",
+    "title": "Pack Web Start — HTML + CSS + JS (Débutant)",
+    "courseIds": ["c_html_01", "c_css_01", "c_js_01"],
+    "priceDH": 199,
+    "discountPercent": 20,
+    "includes": ["Cours", "Résumé structuré", "Exercices guidés"],
+    "description": "Idéal pour démarrer le web de zéro, خطوة بخطوة."
+  },
+  {
+    "id": "p_front_builder",
+    "title": "Pack Front Builder — CSS + JS (Intermédiaire)",
+    "courseIds": ["c_css_02", "c_js_02"],
+    "priceDH": 279,
+    "discountPercent": 15,
+    "includes": ["Cours", "Résumé", "Exercices + mini projets"],
+    "description": "Pour construire des interfaces propres et interactives."
+  },
+  {
+    "id": "p_ml_fundamentals",
+    "title": "Pack ML Fundamentals — du débutant à l'intermédiaire",
+    "courseIds": ["c_ml_01", "c_ml_02"],
+    "priceDH": 349,
+    "discountPercent": 12,
+    "includes": ["Cours", "Résumé", "Exercices (concept + pratique)"],
+    "description": "Les fondamentaux ML pour comprendre et appliquer les concepts."
+  },
+  {
+    "id": "p_ai_track",
+    "title": "Pack AI Track — ML + DL (mix)",
+    "courseIds": ["c_ml_02", "c_dl_01"],
+    "priceDH": 399,
+    "discountPercent": 18,
+    "includes": ["Cours", "Résumé structuré", "Exercices"],
+    "description": "Tu veux AI? Voilà une route claire, بلا صداع."
+  },
+  {
+    "id": "p_advanced_mlops",
+    "title": "Pack Avancé — ML prod + JS perf (bonus)",
+    "courseIds": ["c_ml_03", "c_js_03"],
+    "priceDH": 599,
+    "discountPercent": 22,
+    "includes": ["Cours", "Résumé", "Exercices + checklists"],
+    "description": "Pour aller plus loin: architecture, perf et MLOps (concepts)."
+  }
+]
+

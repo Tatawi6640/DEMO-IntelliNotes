@@ -1,0 +1,242 @@
+[
+  {
+    "id": "c_html_01",
+    "title": "HTML Essentiel — structure, sémantique, formulaires",
+    "category": "HTML",
+    "level": "Débutant",
+    "cover": "/assets/HTML.png",
+    "priceDH": 49,
+    "tags": ["fundamentals", "accessibilité", "SEO"],
+    "shortDescription": "Démarre proprement: structure, sémantique, formulaires et bonnes pratiques.",
+    "description": "Dans ce cours, tu apprends à structurer une page web de façon professionnelle: sémantique, médias et formulaires.\nObjectif: écrire du HTML lisible, maintenable, et friendly pour SEO/a11y.",
+    "whatYouLearn": ["Construire une page sémantique", "Créer des formulaires propres", "Éviter les pièges SEO/a11y"],
+    "plan": ["Structure d'une page", "Balises sémantiques", "Médias (images/video)", "Formulaires", "Accessibilité (a11y)"],
+    "exercises": ["Créer une landing page simple", "Formulaire d'inscription avec validations HTML", "Audit sémantique (checklist)"],
+    "qcm": [
+      { "id": "q1", "question": "Quelle balise est la meilleure pour un contenu autonome (article de blog) ?", "choices": ["<div>", "<article>", "<span>", "<section>"], "correct": "<article>" },
+      { "id": "q2", "question": "Quel attribut est obligatoire pour une image informative ?", "choices": ["alt", "href", "role", "srcset"], "correct": "alt" },
+      { "id": "q3", "question": "Quel input est adapté pour un email ?", "choices": ["type=text", "type=mail", "type=email", "type=number"], "correct": "type=email" },
+      { "id": "q4", "question": "Pourquoi utiliser des balises sémantiques ?", "choices": ["Pour réduire le JS", "Pour SEO/a11y et lisibilité", "Pour augmenter le FPS", "Pour éviter le CSS"], "correct": "Pour SEO/a11y et lisibilité" }
+    ]
+  },
+  {
+    "id": "c_css_01",
+    "title": "CSS Moderne — Flexbox & Grid sans galère",
+    "category": "CSS",
+    "level": "Débutant",
+    "cover": "/assets/CSS.png",
+    "priceDH": 79,
+    "tags": ["flexbox", "grid", "responsive"],
+    "shortDescription": "Layouts responsive avec Flexbox + Grid, et des patterns UI clean.",
+    "description": "Tu vas maîtriser les deux outils clés du layout moderne: Flexbox et Grid. On pratique sur des composants réels (cards, header, sidebar).",
+    "whatYouLearn": ["Réaliser des layouts en Flexbox", "Construire une grille Grid propre", "Faire du responsive sans casser l’UI"],
+    "plan": ["Sélecteurs & cascade", "Flexbox: axes & alignements", "Grid: colonnes & zones", "Responsive", "Patterns UI"],
+    "exercises": ["Carte produit (responsive)", "Mini dashboard (grid)", "Header + menu mobile"],
+    "qcm": [
+      { "id": "q1", "question": "Flexbox est surtout adapté pour…", "choices": ["Une dimension", "Deux dimensions", "Du JS", "Des images"], "correct": "Une dimension" },
+      { "id": "q2", "question": "Grid est surtout adapté pour…", "choices": ["Deux dimensions", "Audio", "DOM", "HTTP"], "correct": "Deux dimensions" },
+      { "id": "q3", "question": "Quelle propriété aligne sur l’axe principal (Flex) ?", "choices": ["align-items", "justify-content", "place-items", "gap"], "correct": "justify-content" },
+      { "id": "q4", "question": "Que fait `gap` ?", "choices": ["Change la police", "Ajoute un espace entre items", "Ajoute une ombre", "Cache un item"], "correct": "Ajoute un espace entre items" }
+    ]
+  },
+  {
+    "id": "c_js_01",
+    "title": "JavaScript Débutant — logique, DOM et petites applis",
+    "category": "JavaScript",
+    "level": "Débutant",
+    "cover": "/assets/JavaScript.png",
+    "priceDH": 99,
+    "tags": ["DOM", "events", "fundamentals"],
+    "shortDescription": "Variables, fonctions, événements et DOM: tu commences à coder des vrais trucs.",
+    "description": "On part des bases (types, conditions, boucles) et on arrive vite à des mini applis avec le DOM et les événements.",
+    "whatYouLearn": ["Manipuler le DOM", "Gérer des events", "Structurer un mini projet JS"],
+    "plan": ["Syntaxe & types", "Conditions & boucles", "Fonctions", "DOM", "Events"],
+    "exercises": ["To‑do list", "Calculatrice", "Quiz QCM"],
+    "qcm": [
+      { "id": "q1", "question": "Quelle méthode convertit un JSON en objet ?", "choices": ["JSON.parse", "JSON.stringify", "toJSON", "parseInt"], "correct": "JSON.parse" },
+      { "id": "q2", "question": "Quel événement capte un clic ?", "choices": ["hover", "click", "press", "tap"], "correct": "click" },
+      { "id": "q3", "question": "Quel type représente '42' ?", "choices": ["number", "string", "boolean", "object"], "correct": "string" },
+      { "id": "q4", "question": "`const` signifie…", "choices": ["variable modifiable", "référence non réassignable", "fonction", "classe"], "correct": "référence non réassignable" }
+    ]
+  },
+  {
+    "id": "c_html_02",
+    "title": "HTML Intermédiaire — SEO & accessibilité pratique",
+    "category": "HTML",
+    "level": "Intermédiaire",
+    "cover": "/assets/HTML.png",
+    "priceDH": 129,
+    "tags": ["SEO", "a11y", "checklist"],
+    "shortDescription": "Optimise ton HTML pour SEO + a11y avec une checklist claire.",
+    "description": "Tu vas apprendre à améliorer une page existante: métas, structure, accessibilité (ARIA) et bonnes pratiques.",
+    "whatYouLearn": ["Améliorer SEO on-page", "Appliquer a11y/ARIA correctement", "Utiliser une checklist qualité"],
+    "plan": ["Meta & SEO", "A11y pratique", "Microdata (intro)", "Perf web (basics)", "Checklist"],
+    "exercises": ["Optimiser une page existante", "Corriger des erreurs a11y", "Audit SEO express"],
+    "qcm": [
+      { "id": "q1", "question": "À quoi sert `aria-label` ?", "choices": ["Style CSS", "Texte accessible pour lecteurs d’écran", "Importer un script", "Définir une route"], "correct": "Texte accessible pour lecteurs d’écran" },
+      { "id": "q2", "question": "Quel élément représente le contenu principal ?", "choices": ["<main>", "<aside>", "<footer>", "<small>"], "correct": "<main>" },
+      { "id": "q3", "question": "Le title doit être…", "choices": ["vide", "unique et descriptif", "en base64", "dans le body"], "correct": "unique et descriptif" },
+      { "id": "q4", "question": "Pourquoi limiter les images lourdes ?", "choices": ["Pour SEO/perf", "Pour le DOM", "Pour Java", "Pour éviter HTML"], "correct": "Pour SEO/perf" }
+    ]
+  },
+  {
+    "id": "c_css_02",
+    "title": "CSS Intermédiaire — animations, thèmes et design system",
+    "category": "CSS",
+    "level": "Intermédiaire",
+    "cover": "/assets/CSS.png",
+    "priceDH": 149,
+    "tags": ["animations", "design system", "variables CSS"],
+    "shortDescription": "Animations fluides, variables CSS et mini design system.",
+    "description": "On met en place des variables CSS, des transitions/keyframes et des composants UI cohérents.",
+    "whatYouLearn": ["Créer un thème via variables", "Animer sans surcharger", "Structurer un design system light"],
+    "plan": ["Variables CSS", "Transitions", "Keyframes", "Thèmes", "Composants UI"],
+    "exercises": ["Bouton animé", "Thème dark/light", "Kit de badges"],
+    "qcm": [
+      { "id": "q1", "question": "Les variables CSS se déclarent avec…", "choices": ["$", "--", "var()", "@const"], "correct": "--" },
+      { "id": "q2", "question": "`transition` sert à…", "choices": ["Créer une image", "Animer un changement de propriété", "Faire un fetch", "Gérer un event"], "correct": "Animer un changement de propriété" },
+      { "id": "q3", "question": "Une animation keyframes définit…", "choices": ["Des états dans le temps", "Des routes", "Des modules", "Des requêtes"], "correct": "Des états dans le temps" },
+      { "id": "q4", "question": "Un design system aide à…", "choices": ["Uniformiser l’UI", "Compresser JS", "Créer des DB", "Éviter HTML"], "correct": "Uniformiser l’UI" }
+    ]
+  },
+  {
+    "id": "c_js_02",
+    "title": "JavaScript Intermédiaire — modules, async/await, APIs",
+    "category": "JavaScript",
+    "level": "Intermédiaire",
+    "cover": "/assets/JavaScript.png",
+    "priceDH": 199,
+    "tags": ["async", "fetch", "modules"],
+    "shortDescription": "Promesses, async/await, fetch et structure de projet moderne.",
+    "description": "Tu apprends à écrire du JS asynchrone propre, gérer des erreurs et structurer un mini projet.",
+    "whatYouLearn": ["Utiliser async/await", "Gérer erreurs + loaders", "Organiser le code en modules"],
+    "plan": ["Modules ES", "Async/Await", "Fetch", "State UI", "Patterns"],
+    "exercises": ["App météo (mock)", "Pagination", "Gestion d'erreurs"],
+    "qcm": [
+      { "id": "q1", "question": "Async/await est basé sur…", "choices": ["Callbacks", "Promises", "CSS", "HTML"], "correct": "Promises" },
+      { "id": "q2", "question": "`fetch` retourne…", "choices": ["un objet direct", "une Promise", "un number", "un DOM node"], "correct": "une Promise" },
+      { "id": "q3", "question": "Pour gérer une erreur async, on utilise…", "choices": ["try/catch", "switch", "map", "filter"], "correct": "try/catch" },
+      { "id": "q4", "question": "Un module ES exporte avec…", "choices": ["export", "emit", "send", "push"], "correct": "export" }
+    ]
+  },
+  {
+    "id": "c_js_03",
+    "title": "JavaScript Avancé — performance, tests, architecture",
+    "category": "JavaScript",
+    "level": "Avancé",
+    "cover": "/assets/JavaScript.png",
+    "priceDH": 299,
+    "tags": ["performance", "architecture", "tests"],
+    "shortDescription": "Pousse ton JS: perf, patterns, tests (concepts) et architecture.",
+    "description": "On parle performance, patterns et approche test — utile pour des apps pro.",
+    "whatYouLearn": ["Identifier les goulots d’étranglement", "Appliquer des patterns", "Structurer le code"],
+    "plan": ["Profiling", "Memoization", "Patterns", "Tests (approche)", "Architecture"],
+    "exercises": ["Optimiser un rendu", "Refactor par modules", "Écrire des tests (démo)"],
+    "qcm": [
+      { "id": "q1", "question": "La memoization sert à…", "choices": ["refaire plus vite", "éviter des calculs répétés", "styler", "fetch"], "correct": "éviter des calculs répétés" },
+      { "id": "q2", "question": "Un test unitaire vise…", "choices": ["une petite unité", "tout le site", "le réseau", "le GPU"], "correct": "une petite unité" },
+      { "id": "q3", "question": "Une architecture claire aide à…", "choices": ["maintenir et évoluer", "cacher l’UI", "supprimer HTML", "changer CSS"], "correct": "maintenir et évoluer" },
+      { "id": "q4", "question": "Optimiser sans mesurer est…", "choices": ["toujours bien", "risqué", "obligatoire", "impossible"], "correct": "risqué" }
+    ]
+  },
+  {
+    "id": "c_ml_01",
+    "title": "ML Débutant — notions clés + 1er modèle (classification)",
+    "category": "Machine Learning (ML)",
+    "level": "Débutant",
+    "cover": "/assets/Machine_Learning.png",
+    "priceDH": 159,
+    "tags": ["classification", "metrics", "basics"],
+    "shortDescription": "Comprendre les bases ML: features, labels, sur/sous‑apprentissage.",
+    "description": "On couvre les notions essentielles: datasets, split, métriques et overfitting.",
+    "whatYouLearn": ["Différencier features/labels", "Choisir des métriques", "Comprendre overfitting"],
+    "plan": ["Problèmes ML", "Données", "Split train/test", "Évaluation", "Overfitting"],
+    "exercises": ["Choisir les métriques", "Préparer des features (concept)", "Mini pipeline (conceptuel)"],
+    "qcm": [
+      { "id": "q1", "question": "Les labels représentent…", "choices": ["les entrées", "les sorties attendues", "les pixels", "les logs"], "correct": "les sorties attendues" },
+      { "id": "q2", "question": "Overfitting = …", "choices": ["trop simple", "trop adapté au train", "pas de data", "pas de modèle"], "correct": "trop adapté au train" },
+      { "id": "q3", "question": "Train/test split sert à…", "choices": ["compresser", "évaluer généralisation", "styler", "télécharger"], "correct": "évaluer généralisation" },
+      { "id": "q4", "question": "Accuracy convient surtout si…", "choices": ["classes équilibrées", "toujours", "jamais", "pas de labels"], "correct": "classes équilibrées" }
+    ]
+  },
+  {
+    "id": "c_ml_02",
+    "title": "ML Intermédiaire — régression, arbres, validation croisée",
+    "category": "Machine Learning (ML)",
+    "level": "Intermédiaire",
+    "cover": "/assets/Machine_Learning.png",
+    "priceDH": 249,
+    "tags": ["cross-validation", "trees", "tuning"],
+    "shortDescription": "Algorithmes classiques + validation croisée pour faire les choses sérieusement.",
+    "description": "On voit régression, arbres, ensembles et l’évaluation via cross-validation + tuning (concept).",
+    "whatYouLearn": ["Choisir un modèle adapté", "Évaluer via cross-validation", "Faire un tuning propre"],
+    "plan": ["Régression", "Arbres & ensembles", "Feature scaling", "Cross‑validation", "Tuning"],
+    "exercises": ["Choisir un modèle", "Grid search (concept)", "Interpréter les erreurs"],
+    "qcm": [
+      { "id": "q1", "question": "La cross-validation sert à…", "choices": ["styler", "estimer performance robuste", "compresser", "remplacer test"], "correct": "estimer performance robuste" },
+      { "id": "q2", "question": "Un arbre de décision est…", "choices": ["linéaire", "non-linéaire", "un fichier", "un GPU"], "correct": "non-linéaire" },
+      { "id": "q3", "question": "Le tuning vise à…", "choices": ["choisir hyperparamètres", "créer labels", "dessiner", "debugger CSS"], "correct": "choisir hyperparamètres" },
+      { "id": "q4", "question": "Le scaling est utile surtout pour…", "choices": ["kNN/SVM", "arbres", "HTML", "images"], "correct": "kNN/SVM" }
+    ]
+  },
+  {
+    "id": "c_ml_03",
+    "title": "ML Avancé — pipelines, drift, mise en production (concepts)",
+    "category": "Machine Learning (ML)",
+    "level": "Avancé",
+    "cover": "/assets/Machine_Learning.png",
+    "priceDH": 399,
+    "tags": ["MLOps", "monitoring", "drift"],
+    "shortDescription": "Le côté MLOps: pipeline, monitoring, drift et bonnes pratiques (concepts).",
+    "description": "Un aperçu pro: pipelines, monitoring, drift et une checklist prod (démo).",
+    "whatYouLearn": ["Définir des KPIs", "Comprendre drift", "Structurer un pipeline"],
+    "plan": ["Pipelines", "Drift", "Monitoring", "Expérimentation", "Déploiement (concept)"],
+    "exercises": ["Définir des KPIs", "Plan de monitoring", "Checklist prod"],
+    "qcm": [
+      { "id": "q1", "question": "Data drift = …", "choices": ["données changent", "modèle change", "CSS change", "API change"], "correct": "données changent" },
+      { "id": "q2", "question": "Monitoring sert à…", "choices": ["ignorer erreurs", "détecter dégradation", "styler", "déployer JS"], "correct": "détecter dégradation" },
+      { "id": "q3", "question": "Un pipeline ML inclut…", "choices": ["préparation + entraînement", "juste CSS", "juste UI", "juste logs"], "correct": "préparation + entraînement" },
+      { "id": "q4", "question": "Pourquoi des KPIs ?", "choices": ["mesurer", "décorer", "remplacer labels", "supprimer test"], "correct": "mesurer" }
+    ]
+  },
+  {
+    "id": "c_dl_01",
+    "title": "DL Débutant — neurones, backprop et intuition",
+    "category": "Deep Learning (DL)",
+    "level": "Débutant",
+    "cover": "/assets/Deep_Learning.png",
+    "priceDH": 199,
+    "tags": ["backprop", "loss", "intuition"],
+    "shortDescription": "Réseaux de neurones expliqués simplement, avec intuition et pratique guidée (concepts).",
+    "description": "On comprend le perceptron, les activations, la loss et l’idée de backprop.",
+    "whatYouLearn": ["Comprendre backprop", "Choisir une loss", "Lire les courbes d’entraînement"],
+    "plan": ["Perceptron", "Activation", "Loss", "Backprop", "Optimisation"],
+    "exercises": ["Choisir une loss", "Éviter overfitting", "Mini réseau (concept)"],
+    "qcm": [
+      { "id": "q1", "question": "Backprop sert à…", "choices": ["calculer gradients", "styler", "créer HTML", "faire fetch"], "correct": "calculer gradients" },
+      { "id": "q2", "question": "Une activation ajoute…", "choices": ["non-linéarité", "du CSS", "des labels", "du bruit"], "correct": "non-linéarité" },
+      { "id": "q3", "question": "La loss mesure…", "choices": ["erreur du modèle", "latence réseau", "taille image", "couleur"], "correct": "erreur du modèle" },
+      { "id": "q4", "question": "Overfitting en DL = …", "choices": ["mémoriser train", "pas de data", "pas de GPU", "pas d’activation"], "correct": "mémoriser train" }
+    ]
+  },
+  {
+    "id": "c_dl_02",
+    "title": "DL Intermédiaire — CNN, régularisation, entraînement",
+    "category": "Deep Learning (DL)",
+    "level": "Intermédiaire",
+    "cover": "/assets/Deep_Learning.png",
+    "priceDH": 499,
+    "tags": ["CNN", "regularization", "training"],
+    "shortDescription": "CNN, dropout, batchnorm et entraînement efficace (concepts).",
+    "description": "On explore CNN et les techniques de régularisation, puis comment diagnostiquer un entraînement.",
+    "whatYouLearn": ["Comprendre CNN", "Appliquer régularisation", "Diagnostiquer le training"],
+    "plan": ["CNN", "Régularisation", "Optimizers", "Data augmentation", "Training loop (concept)"],
+    "exercises": ["Diagnostiquer un training", "Améliorer la généralisation", "Plan d'expériences"],
+    "qcm": [
+      { "id": "q1", "question": "CNN est surtout utilisé pour…", "choices": ["images", "texte uniquement", "CSS", "HTTP"], "correct": "images" },
+      { "id": "q2", "question": "Dropout sert à…", "choices": ["régulariser", "augmenter labels", "compresser image", "rendre linéaire"], "correct": "régulariser" },
+      { "id": "q3", "question": "BatchNorm aide à…", "choices": ["stabiliser entraînement", "charger HTML", "créer routes", "désactiver GPU"], "correct": "stabiliser entraînement" },
+      { "id": "q4", "question": "Data augmentation vise à…", "choices": ["augmenter diversité", "diminuer dataset", "supprimer bruit", "faire SEO"], "correct": "augmenter diversité" }
+    ]
+  }
+]
